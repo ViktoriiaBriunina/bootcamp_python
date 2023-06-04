@@ -1,14 +1,4 @@
-#c = 0
-#f = 0
-
-#c = float(input("Please enter a temperature in Celsius or Fahrenheit: "))
-#f = (c*9/5)+32
-#c = (f-32)*5/9
-
-#print(f'A temperature of {c} in Celsius degree is {f} in Fahrenheit.') ...
-
 while True:
-
     print("1. Celsius to Fahrenheit")
     print("2. Fahrenheit to Celsius")
     print("3. Exit")
@@ -28,5 +18,4 @@ while True:
         break
     else:
         print("Your choice is invalid, please try again")
-
 
